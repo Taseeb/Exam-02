@@ -1,6 +1,9 @@
 * {
-    margin: 0%
+    margin: 0%;
+    font-family: 'Work Sans'; 
 }
+
+
 
 .background {
     width: 100%;
@@ -282,8 +285,10 @@
 {
     .background
     {
-        max-width: fit-content;
+        max-width: 100vw;
+        overflow-x: hidden;
     }
+
     .head-nav
     {   
         flex-direction: column;
